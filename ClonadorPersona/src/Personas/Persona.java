@@ -15,7 +15,12 @@ public class Persona {
 		this.edad =edad;
 		
 		
-	} {
+	} @Override
+	public String toString() {
+		return "\nPersona [nombre=" + nombre + ", edad=" + edad + ", peso=" + peso + ", altura=" + altura + "]";
+	}
+
+	{
 		
 	}
 	

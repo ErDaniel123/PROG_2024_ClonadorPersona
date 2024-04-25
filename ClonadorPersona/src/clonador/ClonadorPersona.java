@@ -15,6 +15,11 @@ public class ClonadorPersona {
 		generar();
 	}
 
+	@Override
+	public String toString() {
+		return "\nClonadorPersona [nombre=" + nombre + ", personas=" + personas + "]";
+	}
+
 	public List<Persona> generar() {
 
 		for (int i = 0; i < 10; i++) {
