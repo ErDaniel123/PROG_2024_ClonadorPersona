@@ -12,7 +12,7 @@ public class ClonadorPersona {
 	public ClonadorPersona(String nombre) {
 		this.nombre = nombre;
 		this.personas = new ArrayList();
-		generar();
+		
 	}
 
 	@Override
